@@ -1,0 +1,17 @@
+# Sortie de : kubectl rollout history deployment/whoami
+
+## Apres la mise a jour vers traefik/whoami:v1.11
+deployment.apps/whoami
+REVISION  CHANGE-CAUSE
+1         <none>
+2         <none>
+
+## Apres la mise a jour vers v9.99 (image inexistante) puis kubectl rollout undo
+deployment.apps/whoami
+REVISION  CHANGE-CAUSE
+1         <none>
+3         <none>
+4         <none>
+
+# Revision 1 = v1.10, 2 = v1.11 (devenue 4 apres le rollback), 3 = v9.99.
+# kubectl get rs : whoami-57487f77f (v1.10, 0), whoami-86d567c94d (v9.99, 0), whoami-c66799bf6 (v1.11, 6)
