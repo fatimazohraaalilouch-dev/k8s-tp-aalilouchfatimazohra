@@ -2,7 +2,7 @@
 
 Travail en monôme : Fatima Zohra Aalilouch, Génie Logiciel, ENSA Al Hoceima, 2026/2027.
 
-Le compte rendu complet (captures et réponses aux questions) est dans [`compte-rendu/compte-rendu.md`](compte-rendu/TP4_Kubernetes_Compte_Rendu_AALILOUCH-Fatima-zohra.pdf).
+Le compte rendu complet (captures et réponses aux questions) est dans [`compte-rendu/compte-rendu`](compte-rendu/TP4_Kubernetes_Compte_Rendu_AALILOUCH-Fatima-zohra.pdf).
 
 | Fichier | Contenu |
 |---|---|
